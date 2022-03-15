@@ -3,13 +3,13 @@
 ## Framework core
 Pre-processing tool that is used to generate Sequences of Metamorphic Groups (SMG) from a source dataset
 
-**Frame controller**:
+**Main**:
 + *core/mainframe.py*: The main program controlling the implementation of framework
 + *core/mrs.py*: The script to coordinate the MRs
 + *core/analysis/smart_core.py*: Core libarires for evaluating the undersirable behaviours
 + *core/analysis/smart_lib.py*: Supporting functions for the framework
 
-**MR generation**
+**Generation**
 + *core/add/add.\**: The tool support the MRs for adding objects into the image at different locations, scale and shapes
 + *core/effect/effect.\**: The tool support the MRs for creating effects (rain, snow, gravel, brightness, etc.) in the images with different scale (0: none to 1: maximum).
 setting
