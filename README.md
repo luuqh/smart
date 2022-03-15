@@ -23,7 +23,7 @@ setting
 + *.json*: Individual settings of SMG in JSON format
 
 ## Models
-Model source codes used in SmartFrame, currently are steering angle based-models with Chauffeur, Autumn and Rambo. Models are configured to run on Swinburne Supercomputer, however, they can be modified to run on other supercomputers or local workstations as well.
+Model source codes used in SMART framework, currently are steering angle based-models with Chauffeur, Autumn and Rambo. Models are configured to run on Swinburne Supercomputer, however, they can be modified to run on other supercomputers or local workstations as well.
 
 **Chauffeur**: 
 + *models/chauffeur_successive.py*: Source code of Chauffeur model
@@ -43,14 +43,14 @@ Model source codes used in SmartFrame, currently are steering angle based-models
 ## Datasets
 Datasets used in testing including the source and follow-up datasets that are basically collections of photos
 + *CH2_001*: Original Udacity dataset
-+ *MTS_001*: Datasets in SmartFrame with different related metamorphic groups
-+ *copy.sh*: Bash script to copy a set of certain scenarios from multiple folders
-+ *count.sh*: Bash script to evaluate images in all folders
++ *MTS_001*: Datasets in SMART framework with different related metamorphic groups
 
 ## Utilities
 Other supporting tools
-+ **arrow**: The tool for annotating arrows in the images
-+ **label**: The tool for annotating labels in the images
++ *arrow*: The tool for annotating arrows in the images
++ *label*: The tool for annotating labels in the images
++ *copy.sh*: Bash script to copy a set of certain scenarios from multiple folders
++ *count.sh*: Bash script to evaluate images in all folders
 
 
 
