@@ -3,10 +3,8 @@
 # Directories of SmartFrame
 ## analysis
 Post-processing and data analysis tools for numerical simulations by SmartFrame, including tools to compute and plot undersirable behaviours
-### commons.py
-Basic functions
-### successive_extract.py
-Extract specific output data
+- *commons.py*: Basic functions
+- *successive_extract.py*: Extract specific output data
 ### successive_heatmap.py
 Plot heatmaps from output data
 ### successive_statistics.py
