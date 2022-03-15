@@ -1,7 +1,7 @@
 # SMART Framework
 ## A Sequential Metamorphic Testing (SMART) Framework for Understanding Automated Driving Systems
 
-**IMPORTANT**❗: The source code of SMART framework will be published as soon as our paper under review being accepted.</span>.
+🎄 🔔 **IMPORTANT** 🔔 🎄 : The source code of SMART framework will be published as soon as our paper under review being accepted.</span>.
 
 ![Structure of SMART framework](smart-framework.png)
 
