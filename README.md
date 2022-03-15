@@ -1,74 +1,52 @@
+# SMART Framework
 
+## Framework core
+Pre-processing tool that is used to generate Sequences of Metamorphic Groups (SMG) from a source dataset
+- **Frame controller**:
++ *core/mainframe.py*: The main program controlling the implementation of framework
++ *core/mrs.py*: The script to coordinate the MRs
++ *core/analysis/smart_core.py*: Core libarires for evaluating the undersirable behaviours
++ *core/analysis/smart_lib.py*: Supporting functions for the framework
+- **MR generation**
++ *core/add/add.\**: The tool support the MRs for adding objects into the image at different locations, scale and shapes
++ *core/effect/effect.\**: The tool support the MRs for creating effects (rain, snow, gravel, brightness, etc.) in the images with different scale (0: none to 1: maximum).
+setting
+- **Analysis**
++ *core/analysis/smart_stat.py*: Statistical analysis
++ *core/analysis/smart_plot.py*: Plotting functions
+- **Setting**
++ *smart-json-setting-rmg.txt*: The collection of SMG included in the experiments
++ *.json*: Individual settings of SMG in JSON format
 
-# Directories of SmartFrame
-## analysis
-Post-processing and data analysis tools for numerical simulations by SmartFrame, including tools to compute and plot undersirable behaviours
-- *commons.py*: Basic functions
-- *successive_extract.py*: Extract specific output data
-### successive_heatmap.py
-Plot heatmaps from output data
-### successive_statistics.py
-Obtain statistical analysis and plots from output data
-### successive_tables.py
-Prepare CSV and Latex tables from output data
-### successive_tools.py
-Other Python tools
+## Models
+Model source codes used in SmartFrame, currently are steering angle based-models with Chauffeur, Autumn and Rambo. Models are configured to run on Swinburne Supercomputer, however, they can be modified to run on other supercomputers or local workstations as well.
+- **Chauffeur**: 
++ *models/chauffeur_successive.py*: Source code of Chauffeur model
++ *models/chauffeur_successive.sh* and *chauffeur_successive.slurm*: Bash and sbatch scripts to execute Chauffeur models
++ *models/params/chauffeur/*: weights and parameters for Chauffeur models
+- **Autumn**: 
++ *models/autumn_successive.py*: Source code of Autumn model
++ *models/autumn_successive.sh* and *autumn_successive.slurm*: Bash and sbatch scripts to execute Autumn models
++ *models/params/rambo/*: weights and parameters for Autumn models
+- **Rambo**: 
++ *models/rambo_successive.py*: Source code of Rambo model
++ *models/rambo_successive.sh* and *rambo_successive.slurm*: Bash and sbatch scripts to execute Rambo models
++ *models/params/rambo/*: weights and parameters for Rambo models
 
-
-## datasets
+## Datasets
 Datasets used in testing including the source and follow-up datasets that are basically collections of photos
-### CH2_001
-Original Udacity dataset
-### MTS_001
-Datasets in SmartFrame with different related metamorphic groups
-### copy.py
-Python script to copy a certain images from multiple folders
-### count.py
-Python script to count total images in all folders for the purpose of identifying 
+- *CH2_001*: Original Udacity dataset
+- *MTS_001*: Datasets in SmartFrame with different related metamorphic groups
+- *copy.sh*: Bash script to copy a set of certain scenarios from multiple folders
+- *count.sh*: Bash script to evaluate images in all folders
 
-
-## models
-Model source codes used in SmartFrame, currently are steering angle based-models with Chauffeur, Autumn and Rambo. Models are configured to run on Supercomputer, however, they can be modified to run on local workstation as well.
-### autumn_successive.py
-Source code of Autumn model
-###  autumn_successive.sh and autumn_successive.slurm
-Bash and sbatch scripts to execute Autumn models in Swinburne Supercomputer
-### chauffeur_successive.py
-Source code of Chauffeur model
-### chauffeur_successive.sh and chauffeur_successive.slurm
-Bash and sbatch scripts to execute Chauffeur models in Swinburne Supercomputer
-### rambo_successive.py
-Source code of Rambo model
-### rambo_successive.sh and rambo_successive.slurm
-Bash and sbatch scripts to execute Rambo models in Swinburne Supercomputer
-
-
-## params
-Model parameters including architecture and weights (Chauffeur, Autumn and Rambo) drived from Udacity
-## autumn
-The Autumn model
-## chauffeur
-The Chauffeur model
-## rambo
-The Rambo model
-
-
-## tools
-Pre-processing tool that is used to generate Sequences of Metamorphic Groups from a source dataset
-### add
-A tool to add objects into the image at different locations, scale and shapes
-### effect
-A tool to create effects (rain, snow, gravel, brightness, etc.) in the images with different scale (0: none to 1: maximum).
-### arrow
-A tool to add annotated arrows into the images
-### label
-A tool to add annotated labels into the images
+## Utilities
+Other supporting tools
++ **arrow**: The tool for annotating arrows in the images
++ **label**: The tool for annotating labels in the images
 
 
 
----
-
-Unless otherwise stated, all packages are developed by Luu Quang Hung, luuquanghung@gmail.com
 
 ***
 
