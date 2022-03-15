@@ -1,4 +1,11 @@
 # SMART Framework
+A Sequential Metamorphic Testing (SMART) Framework for Understanding Automated Driving Systems
+
+![Structure of SMART framework](smart-framework.png)
+
+![SMGs for testing end-to-end systems in SMART framework](smart-smgs.png)
+
+<span style="color:red">The source code of SMART framework will be published as soon as our paper under review being accepted.</span>.
 
 ## Framework core
 Pre-processing tool that is used to generate Sequences of Metamorphic Groups (SMG) from a source dataset
