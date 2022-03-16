@@ -2,7 +2,7 @@
 
 ## A Sequential Metamorphic Testing (SMART) Framework for Understanding Automated Driving Systems
 
-🎄 🔔 **IMPORTANT** 🔔 🎄 : The source code of SMART framework will be published as soon as our paper under review being accepted.
+🎄 🔔 **IMPORTANT** 🔔 🎄 : The source code of SMART framework will be published as soon as our paper under review is accepted.
 
 
 
@@ -16,7 +16,7 @@
 ## Framework core
 Processing tool that is used to generate Sequences of Metamorphic Groups (SMG) from a source dataset
 
-**Main**:
+**Main**
 + *core/mainframe.py*: The main program controlling the implementation of framework
 + *core/mrs.py*: The script to coordinate the MRs
 + *core/analysis/smart_core.py*: Core libarires for evaluating the undersirable behaviours
