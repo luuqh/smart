@@ -23,8 +23,8 @@ Processing tool that is used to generate Sequences of Metamorphic Groups (SMG) f
 + `core/analysis/smart_lib.py`: Supporting functions for the framework
 
 **Generation**
-+ `core/add/add.\*`: The tool support the MRs for adding objects into the image at different locations, scale and shapes
-+ `core/effect/effect.\*`: The tool support the MRs for creating effects (rain, snow, gravel, brightness, etc.) in the images with different scale (0: none to 1: maximum)
++ `core/add/add.*`: The tool support the MRs for adding objects into the image at different locations, scale and shapes
++ `core/effect/effect.*`: The tool support the MRs for creating effects (rain, snow, gravel, brightness, etc.) in the images with different scale (0: none to 1: maximum)
 
 **Analysis**
 + `core/analysis/smart_stat.py`: Statistical analysis
