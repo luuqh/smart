@@ -17,7 +17,7 @@
 Processing tool that is used to generate Sequences of Metamorphic Groups (SMG) from a source dataset
 
 **Main**
-+ *core/mainframe.py*: The main program controlling the implementation of framework
++ `core/mainframe.py`: The main program controlling the implementation of framework
 + *core/mrs.py*: The script to coordinate the MRs
 + *core/analysis/smart_core.py*: Core libarires for evaluating the undersirable behaviours
 + *core/analysis/smart_lib.py*: Supporting functions for the framework
