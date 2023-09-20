@@ -12,7 +12,7 @@
 
 ![SMGs for testing end-to-end systems in SMART framework](smart-smgs.png)
 
-
+ 
 ## Framework core
 Processing tool that is used to generate Sequences of Metamorphic Groups (SMG) from a source dataset
 
